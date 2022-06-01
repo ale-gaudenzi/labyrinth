@@ -5,7 +5,8 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
 	public float moveSpeed;
-
+	public float jumpForce;
+	
 	private float maxSpeed = 20f;
 	private Vector3 input;
 	private Rigidbody rb;
@@ -19,11 +20,14 @@ public class MovePlayer : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-		if (rb.velocity.magnitude < maxSpeed)
-		{
+		input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));	
+		if (rb.velocity.magnitude < maxSpeed) {
 			rb.AddForce(input * moveSpeed);
 		}
+		
+		if (Input.GetKeyDown(KeyCode.Space)) {
+        	rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+    	}
 		
 		
 	}

@@ -20,10 +20,10 @@ public class CheckTrigger : MonoBehaviour
 	void OnTriggerEnter(Collider other)
  	{
     	if(other.gameObject.tag=="goal"){
-			print("you win");
+			GameClass.CompleteLevel();
 		}
-		if(other.gameObject.tag=="enemy"){
-			//GameClass.WeDie();
+		if(other.gameObject.tag=="enemy" || other.gameObject.tag=="lava"){
+			GameClass.WeDied();
 			transform.position = spawn;
 		}
 		

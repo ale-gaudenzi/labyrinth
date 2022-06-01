@@ -9,12 +9,16 @@ public class Patrol : MonoBehaviour {
 	private int currentPoint;
 
 	void Start () {
-		transform.position = patrolPoints [0].position;
+		try{
+		transform.position = patrolPoints[0].position;
+		}catch(System.IndexOutOfRangeException){
+		}
 		currentPoint = 0;
 	}
 	
 	void Update () {
-		if (transform.position.x == patrolPoints [currentPoint].position.x ) {
+		try{
+		if (transform.position.x == patrolPoints[currentPoint].position.x) {
             if(transform.position.z == patrolPoints[currentPoint].position.z) {
                 currentPoint++;
             }
@@ -24,6 +28,9 @@ public class Patrol : MonoBehaviour {
 			currentPoint = 0;
 		}
 
-		transform.position = Vector3.MoveTowards (transform.position, patrolPoints [currentPoint].position, Time.deltaTime * speed);
+		transform.position = Vector3.MoveTowards(transform.position, patrolPoints[currentPoint].position, Time.deltaTime * speed);
+		}
+		catch(System.IndexOutOfRangeException){
+		}
 	}
 }

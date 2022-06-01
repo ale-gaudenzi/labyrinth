@@ -352,6 +352,7 @@
 "Assets/Script/CheckBoundary.cs"
 "Assets/Script/CheckEnemy.cs"
 "Assets/Script/CheckTrigger.cs"
+"Assets/Script/GameClass.cs"
 "Assets/Script/MovePlayer.cs"
 "Assets/Script/Patrol.cs"
 -langversion:9.0
