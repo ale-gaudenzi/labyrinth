@@ -361,6 +361,7 @@
 "Assets/Script/MainMenu.cs"
 "Assets/Script/MovePlayer.cs"
 "Assets/Script/Patrol.cs"
+"Assets/Script/PauseMenu.cs"
 -langversion:9.0
 
 /deterministic

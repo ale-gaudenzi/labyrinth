@@ -309,9 +309,11 @@
 "Assets/Script/CheckEnemy.cs"
 "Assets/Script/CheckTrigger.cs"
 "Assets/Script/GameClass.cs"
+"Assets/Script/Invisible.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/MovePlayer.cs"
 "Assets/Script/Patrol.cs"
+"Assets/Script/PauseMenu.cs"
 -langversion:9.0
 
 /deterministic
