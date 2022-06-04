@@ -14,9 +14,7 @@ public class CheckBoundary : MonoBehaviour
     void Update()
     {
         if (transform.position[1] < -2){
-			
 			transform.position = spawn;	
-
 		}
     }
 }

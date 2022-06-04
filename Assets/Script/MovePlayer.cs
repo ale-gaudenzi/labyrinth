@@ -20,10 +20,10 @@ public class MovePlayer : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if(!PauseMenu.isPaused) {
+		if(!OverlayManager.isPaused) {
 			input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));	
 			if (rb.velocity.magnitude < maxSpeed) {
-				rb.AddForce(input * moveSpeed);
+				rb.AddForce(input * moveSpeed * Time.deltaTime * 200);
 			}
 		
 			if (Input.GetKeyDown(KeyCode.Space)) {

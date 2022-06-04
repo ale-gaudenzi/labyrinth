@@ -360,8 +360,13 @@
 "Assets/Script/Invisible.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/MovePlayer.cs"
+"Assets/Script/OverlayManager.cs"
 "Assets/Script/Patrol.cs"
-"Assets/Script/PauseMenu.cs"
+"Assets/Script/TextDeath.cs"
+"Assets/Script/TextLevel.cs"
+"Assets/Script/TextTime.cs"
+"Assets/Script/TextWinScore.cs"
+"Assets/Script/TimeScript.cs"
 -langversion:9.0
 
 /deterministic

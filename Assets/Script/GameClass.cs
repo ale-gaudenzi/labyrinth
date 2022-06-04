@@ -1,47 +1,47 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameClass : MonoBehaviour {
-	public static int highscore ;
+	
 	public static int currentScore = 0;
-	public static int currentLevel = 0;
-	private static bool youWin = false;
-	private static bool youDied = false;
-
-	void Start(){
-		DontDestroyOnLoad (gameObject);
+	public static int currentLevel = 1;
+	public static int deathNumber = 0;
+	
+	private static int TOTAL_LEVEL = 2;
+		
+	void Start() {
+		DontDestroyOnLoad(gameObject);
 	}
+	
+	public static void CompleteLevel() {
+		if(currentLevel == TOTAL_LEVEL) {
+			WeWin();
+		}
+		else {
+			currentLevel += 1;
 
-	public static void CompleteLevel(){
-		currentLevel += 1;
-		print ("You win!!");
-
-		youWin = true;
-
-		//Application.LoadLevel (1);
+			SceneManager.LoadScene(currentLevel);
+			OverlayManager.omIstance.NewLevel();
+		}
 	}
 
     public static void WeDied()
     {
         currentScore -= 1;
 		print("You died!");
-
-		
+		OverlayManager.omIstance.Death();
+		deathNumber++;
     }
-
+	
+	public static void WeWin(){
+		OverlayManager.omIstance.Win();
+	}
+	
 
     void OnGUI()
 	{
-		if(youWin)
-		{
-			GUI.Label(new Rect (200, 200, 500, 600), "You WIN!!");
-             //GUI.Button();
-		}
-		
-		if(youDied){
-			GUI.Label(new Rect (200, 200, 500, 600), "You DIED!!");
-		}
-	}
 
+	}
 }

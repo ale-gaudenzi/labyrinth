@@ -17,6 +17,10 @@ public class MainMenu : MonoBehaviour {
 	
 	public void NewGame(){
 		SceneManager.LoadScene("Livello1");
+		GameClass.currentLevel = 1;
+		GameClass.deathNumber = 0;
+		OverlayManager.isPaused = false;
+		OverlayManager.omIstance.setGui();
 	}
 	
 	public void QuitGame(){
