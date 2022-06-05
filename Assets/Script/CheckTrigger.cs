@@ -25,6 +25,9 @@ public class CheckTrigger : MonoBehaviour
 		if(other.gameObject.tag=="enemy" || other.gameObject.tag=="lava"){
 			GameClass.WeDied();
 			transform.position = spawn;
+
+			GetComponent<Rigidbody>().velocity = Vector3.zero;
+ 			GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 		}
 		
  	}

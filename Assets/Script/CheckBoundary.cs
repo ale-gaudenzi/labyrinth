@@ -15,6 +15,8 @@ public class CheckBoundary : MonoBehaviour
     {
         if (transform.position[1] < -2){
 			transform.position = spawn;	
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+ 			GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 		}
     }
 }

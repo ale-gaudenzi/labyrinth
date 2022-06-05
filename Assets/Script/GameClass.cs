@@ -33,8 +33,6 @@ public class GameClass : MonoBehaviour {
 		print("You died!");
 		OverlayManager.omIstance.Death();
 		deathNumber++;
-		print(playername);
-
     }
 	
 	public static void WeWin() {
