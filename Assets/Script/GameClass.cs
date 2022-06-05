@@ -22,22 +22,25 @@ public class GameClass : MonoBehaviour {
 		}
 		else {
 			currentLevel += 1;
-
 			SceneManager.LoadScene(currentLevel);
 			OverlayManager.omIstance.NewLevel();
+			SoundEffectPlayer.seIstance.NextLevelSound();
+
 		}
 	}
 
     public static void WeDied() {
         currentScore -= 1;
-		print("You died!");
 		OverlayManager.omIstance.Death();
 		deathNumber++;
+		SoundEffectPlayer.seIstance.DeathSound();
     }
 	
 	public static void WeWin() {
 		OverlayManager.omIstance.Win();
 		LeaderboardTable.AddEntry(playername, TimeScript.currentTime, deathNumber);
+		SoundEffectPlayer.seIstance.WinSound();
+
 	}
 	
 

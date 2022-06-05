@@ -315,6 +315,8 @@
 "Assets/Script/MovePlayer.cs"
 "Assets/Script/OverlayManager.cs"
 "Assets/Script/Patrol.cs"
+"Assets/Script/PlaySoundOnStart.cs"
+"Assets/Script/SoundManager.cs"
 "Assets/Script/TextDeath.cs"
 "Assets/Script/TextLevel.cs"
 "Assets/Script/TextTime.cs"
