@@ -8,7 +8,8 @@ public class GameClass : MonoBehaviour {
 	public static int currentScore = 0;
 	public static int currentLevel = 1;
 	public static int deathNumber = 0;
-	
+	public static string playername;
+
 	private static int TOTAL_LEVEL = 2;
 		
 	void Start() {
@@ -32,10 +33,13 @@ public class GameClass : MonoBehaviour {
 		print("You died!");
 		OverlayManager.omIstance.Death();
 		deathNumber++;
+		print(playername);
+
     }
 	
 	public static void WeWin() {
 		OverlayManager.omIstance.Win();
+		LeaderboardTable.AddEntry(playername, TimeScript.currentTime, deathNumber);
 	}
 	
 

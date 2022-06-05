@@ -19,9 +19,6 @@ public class LeaderboardTable : MonoBehaviour {
             DefaultScoreTable();
         }
 
-        //AddEntry("aaa", 20.00f, 2);
-        //AddEntry("bbb", 2.341f, 0);
-        //AddEntry("vvv", 12.312f, -2);
         string jsonString = PlayerPrefs.GetString("scoreTable");
         Scores scores = JsonUtility.FromJson<Scores>(jsonString);
 
@@ -59,7 +56,7 @@ public class LeaderboardTable : MonoBehaviour {
             case 3: rankString = "3RD"; break;
         }
 
-        entryTransform.Find("TimeText").GetComponent<TMP_Text>().text = scoreEntry.time.ToString();
+        entryTransform.Find("TimeText").GetComponent<TMP_Text>().text = scoreEntry.time.ToString("F2");
         entryTransform.Find("DeathText").GetComponent<TMP_Text>().text = scoreEntry.death.ToString();
         entryTransform.Find("NameText").GetComponent<TMP_Text>().text = scoreEntry.name;
         entryTransform.Find("PosText").GetComponent<TMP_Text>().text = rankString;
@@ -67,7 +64,7 @@ public class LeaderboardTable : MonoBehaviour {
         transformList.Add(entryTransform);
     }
 
-    public void AddEntry(string name, float time, int death) {
+    public static void AddEntry(string name, float time, int death) {
         ScoreEntry scoreEntry = new ScoreEntry{name = name, time = time, death = death};
         
         string jsonString = PlayerPrefs.GetString("scoreTable");
