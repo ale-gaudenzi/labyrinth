@@ -5,14 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 	
-    void Start()
-    {
-        
+	public bool inLeaderboard;
+	public GameObject leaderboard;
+	public GameObject mainmenu;
+
+    void Start() {
+    	inLeaderboard = false; 
+		leaderboard.SetActive(false);
     }
 
-    void Update()
-    {
-        
+    void Update() {
+        if(inLeaderboard = true) {
+			if(Input.anyKey) {
+				inLeaderboard = false; 
+				leaderboard.SetActive(false);
+				mainmenu.SetActive(true);
+
+			}
+		}
     }
 	
 	public void NewGame(){
@@ -23,6 +33,13 @@ public class MainMenu : MonoBehaviour {
 		OverlayManager.omIstance.setGui();
 	}
 	
+	public void LeaderBoard() {
+		inLeaderboard = true; 
+		leaderboard.SetActive(true);
+		mainmenu.SetActive(false);
+
+	}
+
 	public void QuitGame(){
 		Application.Quit();
 	}

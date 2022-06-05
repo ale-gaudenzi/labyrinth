@@ -358,6 +358,7 @@
 "Assets/Script/CheckTrigger.cs"
 "Assets/Script/GameClass.cs"
 "Assets/Script/Invisible.cs"
+"Assets/Script/LeaderboardTable.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/MovePlayer.cs"
 "Assets/Script/OverlayManager.cs"

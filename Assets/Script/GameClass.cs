@@ -27,21 +27,19 @@ public class GameClass : MonoBehaviour {
 		}
 	}
 
-    public static void WeDied()
-    {
+    public static void WeDied() {
         currentScore -= 1;
 		print("You died!");
 		OverlayManager.omIstance.Death();
 		deathNumber++;
     }
 	
-	public static void WeWin(){
+	public static void WeWin() {
 		OverlayManager.omIstance.Win();
 	}
 	
 
-    void OnGUI()
-	{
+    void OnGUI() {
 
 	}
 }
