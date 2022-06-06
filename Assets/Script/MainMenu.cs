@@ -40,7 +40,7 @@ public class MainMenu : MonoBehaviour {
 		GameClass.playername = insertField.GetComponent<TMP_InputField>().text;;
 
 		OverlayManager.isPaused = false;
-		//OverlayManager.omIstance.setGui();
+		OverlayManager.isMain = false;
 	}
 	
 	public void LeaderBoard() {

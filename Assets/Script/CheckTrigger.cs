@@ -17,12 +17,12 @@ public class CheckTrigger : MonoBehaviour
 		
     }
 	
-	void OnTriggerEnter(Collider other)
- 	{
+	void OnTriggerEnter(Collider other) {
     	if(other.gameObject.tag=="goal"){
 			GameClass.CompleteLevel();
 		}
-		if(other.gameObject.tag=="enemy" || other.gameObject.tag=="lava"){
+
+		if(other.gameObject.tag=="enemy" || other.gameObject.tag=="lava" || other.gameObject.tag=="obstacle"){
 			GameClass.WeDied();
 			transform.position = spawn;
 

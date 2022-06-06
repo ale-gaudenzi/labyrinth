@@ -7,6 +7,7 @@ TagManager:
   - goal
   - enemy
   - lava
+  - obstacle
   layers:
   - Default
   - TransparentFX

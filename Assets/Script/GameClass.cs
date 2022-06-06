@@ -25,7 +25,6 @@ public class GameClass : MonoBehaviour {
 			SceneManager.LoadScene(currentLevel);
 			OverlayManager.omIstance.NewLevel();
 			SoundEffectPlayer.seIstance.NextLevelSound();
-
 		}
 	}
 

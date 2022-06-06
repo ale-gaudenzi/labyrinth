@@ -16,6 +16,8 @@ public class OverlayManager : MonoBehaviour
 
 	public static bool isPaused; 
 	public static bool isOverlay; 
+	public static bool isWin; 
+	public static bool isMain;
 
 	void Start()
     {
@@ -48,7 +50,11 @@ public class OverlayManager : MonoBehaviour
 		}
 		if(isOverlay) {
 			if(Input.anyKey) {
-				ResumeGame();
+				if(isWin){
+					GoToMainMenu();
+				} else { 
+					ResumeGame();
+				}
 			}
 		}
     }
@@ -78,6 +84,8 @@ public class OverlayManager : MonoBehaviour
 		TimeScript.timeIstance.Reset();
 		guiOverlay.SetActive(false);
 		SceneManager.LoadScene("MainMenu");
+		isWin = false;
+		isMain = true;
 	}
 	
 	public void QuitGame(){
@@ -94,6 +102,7 @@ public class OverlayManager : MonoBehaviour
         winOverlay.SetActive(true);
 		Time.timeScale = 0f;
 		isOverlay = true;
+		isWin = true;
     }
 	
 	public void NewLevel() {

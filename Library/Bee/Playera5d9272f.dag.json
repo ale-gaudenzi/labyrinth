@@ -150,10 +150,7 @@
         142,
         143,
         144,
-        145,
-        146,
-        147,
-        148
+        145
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -236,17 +233,6 @@
       "DebugActionIndex": 7
     },
     {
-      "Annotation": "CopyFiles prova_Data/level0.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Linux64/Data/level0.resS"
-      ],
-      "Outputs": [
-        "prova_Data/level0.resS"
-      ],
-      "DebugActionIndex": 8
-    },
-    {
       "Annotation": "CopyFiles prova_Data/RuntimeInitializeOnLoads.json",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -255,7 +241,7 @@
       "Outputs": [
         "prova_Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles prova_Data/sharedassets2.resource",
@@ -266,7 +252,7 @@
       "Outputs": [
         "prova_Data/sharedassets2.resource"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles prova_Data/sharedassets2.assets.resS",
@@ -277,7 +263,7 @@
       "Outputs": [
         "prova_Data/sharedassets2.assets.resS"
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles prova_Data/sharedassets1.resource",
@@ -288,7 +274,7 @@
       "Outputs": [
         "prova_Data/sharedassets1.resource"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles prova_Data/globalgamemanagers.assets",
@@ -299,7 +285,7 @@
       "Outputs": [
         "prova_Data/globalgamemanagers.assets"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles prova_Data/level2",
@@ -310,29 +296,7 @@
       "Outputs": [
         "prova_Data/level2"
       ],
-      "DebugActionIndex": 14
-    },
-    {
-      "Annotation": "CopyFiles prova_Data/level2.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Linux64/Data/level2.resS"
-      ],
-      "Outputs": [
-        "prova_Data/level2.resS"
-      ],
-      "DebugActionIndex": 15
-    },
-    {
-      "Annotation": "CopyFiles prova_Data/level1.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Linux64/Data/level1.resS"
-      ],
-      "Outputs": [
-        "prova_Data/level1.resS"
-      ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles prova_Data/level0",
@@ -343,7 +307,7 @@
       "Outputs": [
         "prova_Data/level0"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles prova_Data/resources.assets.resS",
@@ -354,7 +318,7 @@
       "Outputs": [
         "prova_Data/resources.assets.resS"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles prova_Data/boot.config",
@@ -365,7 +329,7 @@
       "Outputs": [
         "prova_Data/boot.config"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles prova_Data/sharedassets1.assets.resS",
@@ -376,7 +340,7 @@
       "Outputs": [
         "prova_Data/sharedassets1.assets.resS"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles prova_Data/sharedassets2.assets",
@@ -387,7 +351,7 @@
       "Outputs": [
         "prova_Data/sharedassets2.assets"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles prova_Data/sharedassets0.resource",
@@ -398,7 +362,7 @@
       "Outputs": [
         "prova_Data/sharedassets0.resource"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles prova_Data/Resources/unity_builtin_extra",
@@ -409,7 +373,7 @@
       "Outputs": [
         "prova_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -420,7 +384,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -431,7 +395,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Transactions.dll",
@@ -442,7 +406,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -453,7 +417,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -464,7 +428,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Core.dll",
@@ -475,7 +439,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -486,7 +450,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -497,7 +461,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Configuration.dll",
@@ -508,7 +472,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.ClothModule.dll",
@@ -519,7 +483,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.VFXModule.dll",
@@ -530,7 +494,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -541,7 +505,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -552,7 +516,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Drawing.dll",
@@ -563,7 +527,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -574,7 +538,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.dll",
@@ -585,7 +549,7 @@
       "Outputs": [
         "prova_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Security.dll",
@@ -596,7 +560,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.VRModule.dll",
@@ -607,7 +571,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -618,7 +582,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.ComponentModel.Composition.dll",
@@ -629,7 +593,7 @@
       "Outputs": [
         "prova_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -640,7 +604,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -651,7 +615,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -662,7 +626,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -673,7 +637,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -684,7 +648,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.VisualScripting.State.dll",
@@ -695,7 +659,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -706,7 +670,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -717,7 +681,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -728,7 +692,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -739,7 +703,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.TLSModule.dll",
@@ -750,7 +714,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.IO.Compression.dll",
@@ -761,7 +725,7 @@
       "Outputs": [
         "prova_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -772,7 +736,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -783,7 +747,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/mscorlib.dll",
@@ -794,7 +758,7 @@
       "Outputs": [
         "prova_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -805,7 +769,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -816,7 +780,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -827,7 +791,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -838,7 +802,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.WindModule.dll",
@@ -849,7 +813,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Runtime.Serialization.dll",
@@ -860,7 +824,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Mono.Security.dll",
@@ -871,7 +835,7 @@
       "Outputs": [
         "prova_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -882,7 +846,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/netstandard.dll",
@@ -893,7 +857,7 @@
       "Outputs": [
         "prova_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -904,7 +868,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.Recorder.dll",
@@ -915,7 +879,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.Recorder.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -926,7 +890,7 @@
       "Outputs": [
         "prova_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -937,7 +901,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.XRModule.dll",
@@ -948,7 +912,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.AIModule.dll",
@@ -959,7 +923,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.CoreModule.dll",
@@ -970,7 +934,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -981,7 +945,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -992,7 +956,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -1003,7 +967,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1014,7 +978,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UNETModule.dll",
@@ -1025,7 +989,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.AudioModule.dll",
@@ -1036,7 +1000,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UIModule.dll",
@@ -1047,7 +1011,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -1058,7 +1022,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1069,7 +1033,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1080,7 +1044,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -1091,7 +1055,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.Timeline.dll",
@@ -1102,7 +1066,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1113,7 +1077,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1124,7 +1088,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1135,7 +1099,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1146,7 +1110,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1157,7 +1121,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.Recorder.Base.dll",
@@ -1168,7 +1132,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.Recorder.Base.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1179,7 +1143,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1190,7 +1154,7 @@
       "Outputs": [
         "prova_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Assembly-CSharp.dll",
@@ -1201,7 +1165,7 @@
       "Outputs": [
         "prova_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1212,7 +1176,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.dll",
@@ -1223,7 +1187,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Net.Http.dll",
@@ -1234,7 +1198,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1245,7 +1209,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1256,7 +1220,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.GIModule.dll",
@@ -1267,7 +1231,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.InputModule.dll",
@@ -1278,7 +1242,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1289,7 +1253,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1300,7 +1264,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UI.dll",
@@ -1311,7 +1275,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Xml.dll",
@@ -1322,7 +1286,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1333,7 +1297,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1344,7 +1308,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1355,7 +1319,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1366,7 +1330,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.EnterpriseServices.dll",
@@ -1377,7 +1341,7 @@
       "Outputs": [
         "prova_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.TextMeshPro.dll",
@@ -1388,7 +1352,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.GridModule.dll",
@@ -1399,7 +1363,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1410,7 +1374,7 @@
       "Outputs": [
         "prova_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Numerics.dll",
@@ -1421,7 +1385,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Xml.Linq.dll",
@@ -1432,7 +1396,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1443,7 +1407,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/System.Data.dll",
@@ -1454,7 +1418,7 @@
       "Outputs": [
         "prova_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles prova_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1465,7 +1429,7 @@
       "Outputs": [
         "prova_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info",
@@ -1476,7 +1440,7 @@
         "Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 120
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles UnityPlayer.so",
@@ -1487,7 +1451,7 @@
       "Outputs": [
         "UnityPlayer.so"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles prova.x86_64",
@@ -1498,7 +1462,7 @@
       "Outputs": [
         "prova.x86_64"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles prova_Data/Resources/unity default resources",
@@ -1509,7 +1473,7 @@
       "Outputs": [
         "prova_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so",
@@ -1520,7 +1484,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so",
@@ -1531,7 +1495,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/x86_64/libmono-native.so",
@@ -1542,7 +1506,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/x86_64/libmono-native.so"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/config",
@@ -1553,7 +1517,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/config"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/config",
@@ -1564,7 +1528,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -1575,7 +1539,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -1586,7 +1550,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1597,7 +1561,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1608,7 +1572,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1619,7 +1583,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1630,7 +1594,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -1641,7 +1605,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1652,7 +1616,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1663,7 +1627,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1674,7 +1638,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1685,7 +1649,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1696,7 +1660,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1707,7 +1671,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1718,7 +1682,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1729,7 +1693,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1740,7 +1704,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles prova_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1751,7 +1715,7 @@
       "Outputs": [
         "prova_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles prova_Data/app.info",
@@ -1763,9 +1727,9 @@
         "prova_Data/app.info"
       ],
       "ToBuildDependencies": [
-        120
+        117
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles prova_Data/Resources/UnityPlayer.png",
@@ -1776,7 +1740,7 @@
       "Outputs": [
         "prova_Data/Resources/UnityPlayer.png"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "Player",
@@ -1900,9 +1864,9 @@
         114,
         115,
         116,
-        117,
         118,
         119,
+        120,
         121,
         122,
         123,
@@ -1926,13 +1890,10 @@
         141,
         142,
         143,
-        144,
-        145,
-        146,
-        147
+        144
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 148
+      "DebugActionIndex": 145
     }
   ],
   "FileSignatures": [
@@ -2128,7 +2089,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 148
+          "Player": 145
         }
 ,  "DefaultNodes": [
     0
