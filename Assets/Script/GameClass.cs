@@ -10,7 +10,7 @@ public class GameClass : MonoBehaviour {
 	public static int deathNumber = 0;
 	public static string playername;
 
-	private static int TOTAL_LEVEL = 2;
+	private static int TOTAL_LEVEL = 3;
 		
 	void Start() {
 		DontDestroyOnLoad(gameObject);
