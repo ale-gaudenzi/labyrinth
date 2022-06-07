@@ -361,6 +361,7 @@
 "Assets/Script/LeaderboardTable.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/MovePlayer.cs"
+"Assets/Script/OpenGate.cs"
 "Assets/Script/OverlayManager.cs"
 "Assets/Script/Patrol.cs"
 "Assets/Script/PlaySoundOnEnable.cs"

@@ -29,6 +29,10 @@ public class CheckTrigger : MonoBehaviour
 			GetComponent<Rigidbody>().velocity = Vector3.zero;
  			GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 		}
+
+		if(other.gameObject.tag == "key") {
+			OpenGate.KeyTaken();
+		}
 		
  	}
 }

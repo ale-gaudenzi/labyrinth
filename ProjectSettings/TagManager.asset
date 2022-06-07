@@ -8,6 +8,7 @@ TagManager:
   - enemy
   - lava
   - obstacle
+  - key
   layers:
   - Default
   - TransparentFX
