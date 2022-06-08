@@ -53,7 +53,7 @@ public class OverlayManager : MonoBehaviour
 		}
 
 		if(isOverlay) {
-			if(Input.GetKeyDown(KeyCode.Return)) {
+			if(Input.GetKeyDown(KeyCode.Space)) {
 				if(isWin){
 					GoToMainMenu();
 				} else { 
@@ -100,6 +100,7 @@ public class OverlayManager : MonoBehaviour
         deathOverlay.SetActive(true);
 		Time.timeScale = 0f;
 		isOverlay = true;
+		isPaused = true;
     }
 	
 	public void Win() {
@@ -107,12 +108,14 @@ public class OverlayManager : MonoBehaviour
 		Time.timeScale = 0f;
 		isOverlay = true;
 		isWin = true;
+		isPaused = true;
     }
 	
 	public void NewLevel() {
         levelOverlay.SetActive(true);
 		Time.timeScale = 0f;
 		isOverlay = true;
+		isPaused = true;
     }
 	
 	

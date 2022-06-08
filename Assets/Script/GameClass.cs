@@ -39,10 +39,8 @@ public class GameClass : MonoBehaviour {
 		OverlayManager.omIstance.Win();
 		LeaderboardTable.AddEntry(playername, TimeScript.currentTime, deathNumber);
 		SoundEffectPlayer.seIstance.WinSound();
-
 	}
 	
-
     void OnGUI() {
 
 	}

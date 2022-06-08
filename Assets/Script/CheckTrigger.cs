@@ -7,16 +7,9 @@ public class CheckTrigger : MonoBehaviour
 	private Vector3 spawn;
 	private bool onPlatform;
 
-    void Start()
-    {
+    void Start() {
         spawn = transform.position;
 		onPlatform = false;
-    }
-
-    void Update()
-    {
-		
-		
     }
 	
 	void OnTriggerEnter(Collider other) {
@@ -25,12 +18,11 @@ public class CheckTrigger : MonoBehaviour
 		}
 
 		if(other.gameObject.tag=="enemy" || other.gameObject.tag=="lava" || other.gameObject.tag=="obstacle"){		
-			if(!onPlatform){
-				GameClass.WeDied();
+			if(!onPlatform) {
 				transform.position = spawn;
+				GameClass.WeDied();
 				GetComponent<Rigidbody>().velocity = Vector3.zero;
  				GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-				print("MORTO!!!");
 			}
 		}
 
