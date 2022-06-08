@@ -21,14 +21,16 @@ public class MovePlayer : MonoBehaviour
 	void Update()
 	{
 		if(!OverlayManager.isPaused) {
-			input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));	
-			if (rb.velocity.magnitude < maxSpeed) {
+			input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+			
+			if (rb.velocity.magnitude < maxSpeed && rb.position.y < 0.02f) {
 				rb.AddForce(input * moveSpeed * Time.deltaTime * 200);
 			}
 		
-			if (Input.GetKeyDown(KeyCode.Space)) {
+			if (Input.GetKeyDown(KeyCode.Space) && rb.position.y < 0.02f) {
         		rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     		}
+
 		}
 	}
 }

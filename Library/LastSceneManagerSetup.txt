@@ -1,5 +1,13 @@
 sceneSetups:
-- path: Assets/Models/Key/key.unity
+- path: Assets/Scenes/Livello3.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Livello1.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Livello2.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
