@@ -23,8 +23,13 @@ public class MovePlayer : MonoBehaviour
 		if(!OverlayManager.isPaused) {
 			input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
 			
-			if (rb.velocity.magnitude < maxSpeed && rb.position.y < 0.02f) {
-				rb.AddForce(input * moveSpeed * Time.deltaTime * 200);
+			if (rb.velocity.magnitude < maxSpeed) {
+				if(rb.position.y < 0.02f) {
+					rb.AddForce(input * moveSpeed * Time.deltaTime * 200);
+				} else{
+					rb.AddForce(input * moveSpeed * Time.deltaTime * 20);
+
+				}
 			}
 		
 			if (Input.GetKeyDown(KeyCode.Space) && rb.position.y < 0.02f) {

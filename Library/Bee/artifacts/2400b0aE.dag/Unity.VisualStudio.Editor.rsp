@@ -197,6 +197,7 @@
 -r:"/home/sifao/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"/home/sifao/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
 -r:"/home/sifao/Unity/Hub/Editor/2021.2.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+-r:"/home/sifao/Unity/Hub/Editor/2021.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"/home/sifao/Unity/Hub/Editor/2021.2.12f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"/home/sifao/Unity/Hub/Editor/2021.2.12f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
 -r:"/home/sifao/Unity/Hub/Editor/2021.2.12f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"

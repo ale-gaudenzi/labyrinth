@@ -24,8 +24,12 @@ public class SoundManager : MonoBehaviour {
         }
     }
 
-    public void PlaySound(AudioClip clip) {
-        musicSource.PlayOneShot(clip);
+    public void PlaySound(AudioClip clip, bool music) {
+        if(music) {
+            musicSource.PlayOneShot(clip, 0.5f);
+        } else {
+            effectsSource.PlayOneShot(clip);
+        }
     }
 
     public void StopSound() {

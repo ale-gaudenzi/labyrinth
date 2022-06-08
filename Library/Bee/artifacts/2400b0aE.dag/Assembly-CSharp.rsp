@@ -364,6 +364,7 @@
 "Assets/Script/OpenGate.cs"
 "Assets/Script/OverlayManager.cs"
 "Assets/Script/Patrol.cs"
+"Assets/Script/Platform.cs"
 "Assets/Script/PlaySoundOnEnable.cs"
 "Assets/Script/PlaySoundOnStart.cs"
 "Assets/Script/SoundEffectPlayer.cs"

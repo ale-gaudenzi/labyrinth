@@ -9,6 +9,8 @@ TagManager:
   - lava
   - obstacle
   - key
+  - platform
+  - player
   layers:
   - Default
   - TransparentFX

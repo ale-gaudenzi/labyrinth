@@ -16,7 +16,7 @@ public class TextWinScore : MonoBehaviour
     void Update()
     {
 
-        text.text = "Time: " + TimeScript.timeIstance.getTime().ToString("F2") + " Death: " + GameClass.deathNumber.ToString();
+        text.text = "Time: " + TimeScript.timeIstance.getTime().ToString("F2") + "s Death: " + GameClass.deathNumber.ToString();
 
 
     }

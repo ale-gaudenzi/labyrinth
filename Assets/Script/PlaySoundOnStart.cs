@@ -7,7 +7,7 @@ public class PlaySoundOnStart : MonoBehaviour
     [SerializeField] private AudioClip clip;
 
     void Awake() {
-        SoundManager.smIstance.PlaySound(clip);
+        SoundManager.smIstance.PlaySound(clip, true);
     }
 
     void OnDestroy() {
