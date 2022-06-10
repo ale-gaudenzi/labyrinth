@@ -41,7 +41,6 @@ public class OverlayManager : MonoBehaviour
 
 
 	void Update() {
-	
         if(Input.GetKeyDown(KeyCode.Escape)) {
 			if(isPaused || isOverlay) {
 				ResumeGame();
@@ -53,16 +52,17 @@ public class OverlayManager : MonoBehaviour
 
 		if(isOverlay) {
 			if(Input.GetKeyDown(KeyCode.Space)) {
-				if(isWin){
+				if(isWin) {
 					GoToMainMenu();
-				} else { 
-					ResumeGame();
+				} 
+				else { 
+					Time.timeScale = 1f;
+					Invoke("ResumeGame", 0.01f);
 				}
 			}
 		}
     }
 	
-		
 	public void PauseGame() {
         pauseMenu.SetActive(true);
 		Time.timeScale = 0f;
@@ -72,7 +72,7 @@ public class OverlayManager : MonoBehaviour
 	
 	public void ResumeGame() {
 		RemoveOverlay();
-		Time.timeScale = 1f;
+
 		isPaused = false;
 		isOverlay = false;
 		TimeScript.timeIstance.setPaused(false);

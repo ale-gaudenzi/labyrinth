@@ -11,16 +11,14 @@ public class MovePlayer : MonoBehaviour
 	private Vector3 input;
 	private Rigidbody rb;
 
-	void Start()
-	{
+	void Start() {
 		rb = GetComponent<Rigidbody>();
 		rb.velocity = Vector3.zero;
 	}
 
 	// Update is called once per frame
-	void Update()
-	{
-		if(!OverlayManager.isPaused) {
+	void Update() {
+		if(!OverlayManager.isPaused && !OverlayManager.isOverlay) {
 			input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
 			
 			if (rb.velocity.magnitude < maxSpeed) {
