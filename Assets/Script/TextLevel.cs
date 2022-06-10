@@ -8,18 +8,11 @@ public class TextLevel : MonoBehaviour
 {
 	public TMP_Text text;
 	
-    void Start()
-    {
-		//text = this.gameObject.GetComponent<TextMeshPro>();
-		
-        text.text = "Level: " + GameClass.currentLevel.ToString();
+    void Start() {		
+        text.text = "Level " + GameClass.currentLevel.ToString();
     }
 
-    void Update()
-    {
-	    text.text = "Level: " + GameClass.currentLevel.ToString();
-
-        
-
+    void Update() {
+	    text.text = "Level " + GameClass.currentLevel.ToString();
     }
 }

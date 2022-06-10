@@ -1966,7 +1966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a32610eef2ab5888fac149561e82a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 4094d118ca6ff8f74b40cb6815489837, type: 3}
+  clip: {fileID: 8300000, guid: 3988669c07b34c6158e421fa31601506, type: 3}
 --- !u!4 &966129567
 Transform:
   m_ObjectHideFlags: 0

@@ -26,6 +26,7 @@ public class SoundManager : MonoBehaviour {
 
     public void PlaySound(AudioClip clip, bool music) {
         if(music) {
+            musicSource.loop = true;
             musicSource.PlayOneShot(clip, 0.5f);
         } else {
             effectsSource.PlayOneShot(clip);

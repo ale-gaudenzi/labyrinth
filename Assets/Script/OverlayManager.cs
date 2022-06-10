@@ -13,7 +13,6 @@ public class OverlayManager : MonoBehaviour
 	public GameObject levelOverlay;
 	public GameObject guiOverlay;
 
-
 	public static bool isPaused; 
 	public static bool isOverlay; 
 	public static bool isWin; 

@@ -8,15 +8,11 @@ public class TextDeath : MonoBehaviour
 {
 	public TMP_Text text;
 	
-    void Start()
-    {
-		//text = this.gameObject.GetComponent<TextMeshPro>();
-		
-        text.text = "Death: " + GameClass.deathNumber.ToString();
+    void Start() {	
+        text.text = "Death " + GameClass.deathNumber.ToString();
     }
 
-    void Update()
-    {
-        text.text = "Death: " + GameClass.deathNumber.ToString();
+    void Update() {
+        text.text = "Death " + GameClass.deathNumber.ToString();
     }
 }

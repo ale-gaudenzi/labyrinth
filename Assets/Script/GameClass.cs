@@ -40,8 +40,4 @@ public class GameClass : MonoBehaviour {
 		LeaderboardTable.AddEntry(playername, TimeScript.currentTime, deathNumber);
 		SoundEffectPlayer.seIstance.WinSound();
 	}
-	
-    void OnGUI() {
-
-	}
 }

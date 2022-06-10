@@ -384,6 +384,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
@@ -400,6 +402,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2260}
     - Class: 114
       Script: {instanceID: 2714}
+    - Class: 114
+      Script: {instanceID: 2852}
     - Class: 114
       Script: {instanceID: 2936}
     - Class: 114
@@ -424,6 +428,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6176}
     - Class: 114
       Script: {instanceID: 6526}
+    - Class: 114
+      Script: {instanceID: 7600}
     - Class: 114
       Script: {instanceID: 8380}
     - Class: 115
@@ -1391,4 +1397,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Livello1.unity
   - Assets/Scenes/Livello2.unity
   - Assets/Scenes/Livello3.unity
-  playerPath: /home/sifao/labyrinth/labirinth0.1.x86_64
+  playerPath: /home/sifao/labyrinth/linuxbuild0.1/labirinth0.1.x86_64

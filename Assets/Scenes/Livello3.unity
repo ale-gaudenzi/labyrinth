@@ -2798,6 +2798,10 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
+      propertyPath: speed
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: isTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -3125,6 +3129,10 @@ PrefabInstance:
     - target: {fileID: 2802833021766094900, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
+      propertyPath: speed
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: isTrigger
@@ -3519,7 +3527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a32610eef2ab5888fac149561e82a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: f1dd34480672673a29c85daf7f67bbe2, type: 3}
+  clip: {fileID: 8300000, guid: 9f8d0d39cec979d09a283c6698e02daa, type: 3}
 --- !u!4 &966129567
 Transform:
   m_ObjectHideFlags: 0
@@ -4130,6 +4138,10 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
+      propertyPath: speed
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: isTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -4439,6 +4451,10 @@ PrefabInstance:
     - target: {fileID: 2802833021766094900, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
+      propertyPath: speed
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: isTrigger
@@ -6650,6 +6666,10 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
+      propertyPath: speed
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: isTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -7399,6 +7419,10 @@ PrefabInstance:
     - target: {fileID: 2802833021766094900, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
+      propertyPath: speed
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 2802833021766094901, guid: 48adf373b7e994e98aa9cd30dc5f7a97, type: 3}
       propertyPath: isTrigger
