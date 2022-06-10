@@ -1,498 +1,390 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1654869608885412, "dur":509, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608885928, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1654869608885963, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1654869608885974, "dur":155, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1654869608886148, "dur":337, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608886485, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936556, "dur":113, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936669, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936689, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936690, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936694, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936694, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936697, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936697, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936701, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936710, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936714, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936719, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936723, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936731, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608936735, "dur":1083, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1654869608886058, "dur":468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608886530, "dur":1271, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608887802, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1654869608887803, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608887819, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1654869608887829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608888165, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1654869608888358, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1654869608888365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608888378, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1654869608888857, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1654869608888871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608888875, "dur":370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1654869608889249, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1654869608889253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608889255, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1654869608891669, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608891698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608891701, "dur":77, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608891780, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608891965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608891967, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608892486, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608892512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608892515, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608892625, "dur":1481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608894109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608894111, "dur":4494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608898609, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608898637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608898641, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608898717, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608899161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608899165, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900371, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900397, "dur":64, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900463, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900512, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900656, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900688, "dur":76, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900766, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608900856, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901104, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901129, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901189, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901212, "dur":67, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901281, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901442, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901878, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901900, "dur":61, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608901964, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608902202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608902205, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903116, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903159, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903280, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903318, "dur":92, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903412, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903449, "dur":101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903552, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903559, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903702, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903776, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608903984, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608904246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608904256, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608904997, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905020, "dur":63, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905085, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905108, "dur":61, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905172, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905204, "dur":87, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905294, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905333, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905439, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905463, "dur":62, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905528, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608905544, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1654869608906066, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654869608906070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1654869608906072, "dur":11942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1654869608918018, "dur":18541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608886177, "dur":554, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608886732, "dur":1128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608887861, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1654869608887869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608888052, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1654869608888250, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1654869608888255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608888260, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1654869608888620, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1654869608888626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608888629, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1654869608889034, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654869608889039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608889044, "dur":15333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654869608904385, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654869608904413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608904416, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654869608904492, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654869608905036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608905038, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1654869608906800, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654869608906805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608906808, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1654869608910795, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654869608910799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608910801, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654869608913146, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1654869608913150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608913152, "dur":109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1654869608913263, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654869608913267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1654869608913269, "dur":5660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":2, "ts":1654869608918933, "dur":17625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608886103, "dur":480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608886583, "dur":1245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608887830, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1654869608887847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608888126, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1654869608888295, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654869608888306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608888343, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654869608889741, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1654869608889746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608889779, "dur":22496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912284, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912311, "dur":63, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912377, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912383, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912607, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608912614, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654869608913363, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1654869608913381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608913383, "dur":46, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1654869608913431, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654869608913435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608913437, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654869608914129, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654869608914133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608914135, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1654869608915694, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1654869608915698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608915700, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1654869608915827, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654869608915852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1654869608915855, "dur":73, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1654869608915930, "dur":20595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608886123, "dur":496, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608886619, "dur":1236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608887857, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1654869608887881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888006, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888323, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888453, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888651, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888660, "dur":287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888950, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608888958, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1654869608889140, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654869608889145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1654869608889147, "dur":47326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1654869608936483, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1654869608936485, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608886144, "dur":511, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608886655, "dur":1202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608887859, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1654869608887876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608888210, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1654869608888633, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1654869608888638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608888641, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1654869608888811, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1654869608888816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608888818, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1654869608889799, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608889864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608889868, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608890044, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608891040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608891043, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608893772, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608893833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608893836, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894005, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894040, "dur":91, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894133, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894160, "dur":71, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894233, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894356, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894714, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608894748, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895170, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895243, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895439, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895470, "dur":60, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895532, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895554, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895615, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895642, "dur":68, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895713, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895742, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895830, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608895917, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896143, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896171, "dur":79, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896252, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896297, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896421, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896476, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896716, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608896805, "dur":218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897025, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897056, "dur":80, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897138, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897161, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897222, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897243, "dur":57, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897302, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608897891, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608899494, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608899553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608899555, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608899713, "dur":2370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608902087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608902090, "dur":5904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1654869608907997, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908003, "dur":84, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908089, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908095, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908299, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908304, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908456, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908461, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908672, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608908678, "dur":4505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":5, "ts":1654869608913186, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1654869608913189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1654869608913191, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1654869608916831, "dur":19767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608886162, "dur":530, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608886692, "dur":1174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608887867, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1654869608887887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608888018, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1654869608888352, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1654869608888358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608888362, "dur":370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1654869608888735, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1654869608888759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608888800, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1654869608889287, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth.exe" }}
-,{ "pid":12345, "tid":6, "ts":1654869608889603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608889605, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth.exe" }}
-,{ "pid":12345, "tid":6, "ts":1654869608890470, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608890498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608890501, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608890586, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1654869608890592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608890626, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1654869608890986, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891065, "dur":199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891266, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891435, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891889, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608891926, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892026, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892059, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892144, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892201, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892362, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892391, "dur":70, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892464, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892542, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892766, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608892900, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893244, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893268, "dur":59, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893329, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893352, "dur":52, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893406, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893428, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893489, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893516, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893576, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893595, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893597, "dur":56, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893655, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893678, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893738, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608893749, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894348, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894380, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894470, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.Recorder.Base.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894490, "dur":45, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.Recorder.Base.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894537, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894558, "dur":57, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894617, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894639, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894727, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894753, "dur":60, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608894815, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608895378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608895380, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897337, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897381, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897494, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897551, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897673, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897755, "dur":67, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897824, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608897933, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898218, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Unity.Recorder.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898238, "dur":52, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Unity.Recorder.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898293, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898312, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898325, "dur":63, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898391, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898453, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898614, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898639, "dur":58, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898699, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608898826, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899172, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899194, "dur":64, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899260, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899284, "dur":62, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899348, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899370, "dur":57, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899429, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899512, "dur":227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899742, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899771, "dur":79, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899852, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899878, "dur":63, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608899943, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900015, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900204, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900234, "dur":67, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900303, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900326, "dur":57, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900386, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900389, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900560, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900595, "dur":69, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900667, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900697, "dur":92, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900791, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900818, "dur":81, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900901, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608900928, "dur":76, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608901006, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608901025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608901027, "dur":59, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608901090, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608901220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608901223, "dur":362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608901587, "dur":1225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608902814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608902816, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":6, "ts":1654869608906266, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1654869608906271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608906273, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1654869608907003, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1654869608907020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608907022, "dur":46, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1654869608907070, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608907074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608907076, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908169, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level2.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908175, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level2.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908389, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908401, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908676, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608908683, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608910656, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1654869608910660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608910663, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1654869608910851, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles window/labyrinth_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608910855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1654869608910857, "dur":8962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"window/labyrinth_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1654869608919823, "dur":16811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1654869608938289, "dur":315, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1654888426127631, "dur":321, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426127957, "dur":287, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1654888426128248, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1654888426128258, "dur":258, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1654888426128527, "dur":242, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426128769, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426139861, "dur":120, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426139981, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426139994, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426139994, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426139997, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426139997, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426139999, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140000, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140002, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140011, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140013, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140018, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140021, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140025, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140027, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140044, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140046, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140050, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140052, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140055, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140058, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140060, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140062, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140065, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140067, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140072, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426140075, "dur":665, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1654888426128330, "dur":481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426128813, "dur":841, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426129654, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654888426129656, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426129864, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654888426129937, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426129951, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1654888426129956, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130368, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130422, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130432, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130458, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130463, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130489, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130496, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130514, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130538, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130591, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130605, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654888426130730, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1654888426133307, "dur":6552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426128345, "dur":500, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426128845, "dur":860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426129705, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654888426129859, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426129869, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130474, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130481, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130504, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130542, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130568, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130577, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426130854, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654888426131113, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654888426131582, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426131590, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1654888426131604, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426131611, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654888426131619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654888426131622, "dur":4342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654888426135966, "dur":3908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426128374, "dur":510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426128884, "dur":852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426129736, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426129840, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426129848, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426129874, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426129882, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1654888426129887, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130302, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130320, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130325, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130330, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130374, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130396, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130403, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130479, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130485, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130504, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130510, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130628, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130701, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426130754, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1654888426131078, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1654888426131083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426131086, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1654888426131190, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654888426132204, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426132213, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1654888426132221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654888426132224, "dur":4684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1654888426136910, "dur":2945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426128374, "dur":543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426128917, "dur":820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426129738, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426129885, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426129896, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1654888426129901, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130371, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130412, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130419, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130436, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130442, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130561, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130568, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130665, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130797, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426130821, "dur":316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131140, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131215, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131223, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131242, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131249, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131286, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131293, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131421, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131435, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth.exe" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131760, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131764, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426131776, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1654888426132363, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1654888426132378, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426132385, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654888426132392, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426132395, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654888426133179, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654888426133186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654888426133189, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654888426134400, "dur":5469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426128424, "dur":526, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426128950, "dur":793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426129743, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654888426129872, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426129883, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1654888426129888, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130368, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130396, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130402, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130449, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130453, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130509, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130533, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130559, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130567, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130591, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130596, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130630, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130755, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654888426130785, "dur":5043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1654888426135832, "dur":4042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426128446, "dur":547, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426128993, "dur":743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426129738, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426129870, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426129881, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1654888426129887, "dur":460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130348, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130353, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130412, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130434, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130446, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130477, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130483, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130501, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130507, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130543, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130549, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130567, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130573, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130644, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130760, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426130792, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131197, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131258, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131267, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131285, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131290, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131310, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131316, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131333, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131339, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131356, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131361, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131374, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131380, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131400, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131406, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131414, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131471, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131476, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131478, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131483, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131589, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131611, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131618, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426131629, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1654888426132460, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1654888426132466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654888426132469, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1654888426134188, "dur":5676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426128452, "dur":571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129024, "dur":680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129705, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129835, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129846, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129866, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129872, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129889, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129897, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1654888426129921, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130369, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130405, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130412, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130416, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130421, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130438, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130443, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130466, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130471, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130487, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130492, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130513, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130534, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130577, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130585, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426130755, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1654888426131751, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1654888426131758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654888426131761, "dur":8019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1654888426139783, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1654888426139785, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426128464, "dur":606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426129071, "dur":659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426129731, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426129818, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426129829, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131144, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131153, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131174, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131182, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131365, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131375, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131399, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131406, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131471, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131477, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131484, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131486, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426131490, "dur":1068, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132559, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132571, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132728, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132743, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132749, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132758, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132924, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132955, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132963, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426132996, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133002, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133021, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133027, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133108, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133120, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133140, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133146, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133573, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654888426133580, "dur":6282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426128477, "dur":632, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426129109, "dur":635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426129744, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654888426129966, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426129973, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1654888426129977, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130349, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130353, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130406, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130448, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130456, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130525, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130544, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130563, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426130570, "dur":1557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132127, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132136, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132158, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132166, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132185, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132191, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654888426132202, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654888426135208, "dur":4660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426128489, "dur":662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426129151, "dur":587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426129740, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130118, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130126, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130149, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130234, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130258, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130374, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130554, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130561, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130597, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130604, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654888426130792, "dur":7111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654888426137905, "dur":1967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426128506, "dur":678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426129184, "dur":555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426129740, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426129869, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426129881, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1654888426129887, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426130233, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1654888426130257, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426130347, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1654888426130353, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426130372, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426130552, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426130558, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131198, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131206, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131294, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131303, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131320, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131326, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131381, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131388, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131389, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426131393, "dur":1811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426133205, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426133214, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426133233, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426133241, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654888426133275, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654888426133281, "dur":6584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426128518, "dur":712, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129231, "dur":429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129661, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129735, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129786, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129803, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129808, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129821, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129825, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129977, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129983, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1654888426129987, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130351, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130355, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130471, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130494, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130500, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130523, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130542, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130659, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130751, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426130784, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"windowsbuild0.1/labyrinth_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1654888426133112, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles windowsbuild0.1/labyrinth_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654888426133395, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654888426133403, "dur":6457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654888426141062, "dur":151, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
